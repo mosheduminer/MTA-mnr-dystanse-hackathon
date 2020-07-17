@@ -14,7 +14,6 @@
         data.json().then((data) => {
           trains = data["details"];
           trainsData.set(data["details"]);
-          console.log(data);
         });
       });
   }

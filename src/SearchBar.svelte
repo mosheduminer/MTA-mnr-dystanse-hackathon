@@ -38,7 +38,6 @@
     searchTerm = station.name;
     hidden = true;
     currentStation.set(station);
-    console.log(station);
   }
 
   function getCurrentLocation() {

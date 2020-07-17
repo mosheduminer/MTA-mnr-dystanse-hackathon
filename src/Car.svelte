@@ -13,10 +13,13 @@
     }
   }
 </script>
-<div class="container p-1 w-3">
-  <div class="rounded p-8 border-solid border-red-400 {style}">
-    {car.PassengerCount}  <!--riders -->
+
+<hr>
+<div class="rounded p-12 border-solid border-red-400 text-center mx-1 {style}">
+  <span>
+    {car.PassengerCount}
+    <!--riders -->
     <!-- car is about  -->
     {car.PassengerLevel.toLowerCase()}
-  </div>
+  </span>
 </div>
