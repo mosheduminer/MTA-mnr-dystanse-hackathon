@@ -15,7 +15,7 @@
 </script>
 
 <hr>
-<div class="rounded p-12 border-solid border-red-400 text-center mx-1 {style}">
+<div class="rounded p-12 border-2 border-solid border-gray-700 text-center mx-1 {style}">
   <span>
     {car.PassengerCount}
     <!--riders -->
