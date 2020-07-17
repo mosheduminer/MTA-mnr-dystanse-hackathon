@@ -13,7 +13,7 @@
   }
 </style>
 
-<li on:click={onClick} class="p-2 text-lg w-40">
+<li on:click={onClick} class="p-2 cursor-pointer hover:bg-gray-300 text-lg w-40">
   {train.id}
   <hr />
   {train.summary}
