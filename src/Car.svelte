@@ -5,17 +5,30 @@
 
   $: {
     if (car.PassengerLevel.toLowerCase() === "full") {
-      style = "bg-error-400";
+      style = "red";
     } else if (car.PassengerLevel.toLowerCase() === "half full") {
-      style = "bg-alert-400";
+      style = "yellow";
     } else if (car.PassengerLevel.toLowerCase() === "empty") {
-      style = "bg-success-400";
+      style = "green";
     }
   }
 </script>
-
-<hr>
-<div class="rounded p-12 border-2 border-solid border-gray-700 text-center mx-1 {style}">
+<style>
+  div{
+  text-align: center;
+  font-weight: bold;
+  }
+  .green{
+  background-color: green;
+  }
+  .yellow{
+  background-color: yellow;
+  }
+  .red{
+  background-color: red;
+  }
+</style>
+<div class="rounded p-12 m-1 {style}">
   <span>
     {car.PassengerCount}
     <!--riders -->
