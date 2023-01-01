@@ -18,6 +18,6 @@
   "dependencies": {
     "fuzzysort": "^1.1.4",
     "sirv-cli": "^1.0.3",
-    "smelte": "^1.0.14"
+    "smelte": "^1.1.8"
   }
 }
